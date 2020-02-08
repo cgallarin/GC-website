@@ -1,0 +1,82 @@
+#header-main
+  background: url("../img/heroBanner.png") no-repeat
+  background-size: cover
+  height: 800px
+  color: white
+  text-align: left
+
+  article
+    width: 80%
+    margin: 100px auto
+
+
+  h1
+    background: linear-gradient(to right, rgba(233,80,172,1), rgba(255,202,42,1))
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    filter: drop-shadow(4px 4px #333)
+
+  h3
+    color: black
+    font-weight: 600
+
+.main-nav
+  display: flex
+  margin-top: 20px
+  align-items: center
+  //position: fixed
+
+  li
+    // remove bullet points
+    list-style: none
+
+  li:first-child
+    margin-right: auto
+
+  a
+    color: white
+    display: block
+    border-radius: 10px
+    padding: 10px 20px
+    text-decoration: none
+    //font-weight: 900
+    //text-transform: uppercase
+
+  a.download
+    //background-image: linear-gradient(to right, rgba(233,80,172,1), rgba(255,202,42,1))
+    background-color: white
+    font-weight: 900
+    color: #2074ff
+
+  a:hover
+    color: #ccc
+
+#logos
+
+  ul
+    margin: 10px
+    padding: 30px 0
+    background: white
+    display: grid
+    grid-template-columns: repeat(6, auto)
+    @media only screen and (max-width: 550px)
+      grid-template-columns: repeat(3, auto)
+
+  li
+    list-style: none
+
+  li img
+    max-width: 50%
+
+#value-prop
+  text-align: center
+  padding: 200px 0
+
+#footer
+  text-align: center
+  padding: 60px 0
+
+  li
+    list-style: none
+    a
+      padding: 0 20px
