@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="90px" viewBox="0 0 152 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>laptop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-644.000000, -1433.000000)">
+            <g id="laptop" transform="translate(644.000000, 1433.000000)">
+                <path d="M16,0 L134,0 C137.865993,-7.10171439e-16 141,3.13400675 141,7 L141,76 L9,76 L9,7 C9,3.13400675 12.1340068,7.10171439e-16 16,0 Z" id="Rectangle" fill="#D8D8D8"></path>
+                <path d="M9.62025316,78 L0,84.8571429 C0,88.2857143 0.962025316,90 2.88607595,90 C4.81012658,90 54.1940928,90 151.037975,90 C152.320675,88.2857143 152.320675,86.5714286 151.037975,84.8571429 C149.755274,83.1428571 146.548523,80.8571429 141.417722,78 L9.62025316,78 Z" id="Path-10" fill="#D8D8D8"></path>
+                <rect id="Rectangle" fill="#FFFFFF" x="61" y="85" width="32" height="2" rx="1"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(75.870058, 39.870058) rotate(-315.000000) translate(-75.870058, -39.870058) " x="43.8700577" y="33.8700577" width="64" height="12"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(75.870058, 39.870058) scale(-1, 1) rotate(-315.000000) translate(-75.870058, -39.870058) " x="43.8700577" y="33.8700577" width="64" height="12"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

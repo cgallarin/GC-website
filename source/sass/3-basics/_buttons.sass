@@ -4,6 +4,47 @@ $purple: #702AEB
 $white: #FFFFFF
 $orange: #F3921B
 
+.sunset-button
+  background-image: linear-gradient(to right, rgba(233,80,172,1), rgba(255,202,42,1))
+  background-color: #2074ff
+  border: 2px solid
+  font-weight: 900
+  color: white
+  border-radius: 10px
+  text-decoration: none
+  padding: 10px 20px
+  text-transform: uppercase
+  box-shadow: 0 3px #FFF
+
+  &:hover
+    animation: sunset-button 0.3s linear 1
+    border: 2px solid
+
+@keyframes sunset-button
+  25%
+    transform: scale(0.9)
+  75%
+    transform: scale(1.1)
+
+.blue-button
+    background-color: #2074ff
+    border: none
+    font-weight: 900
+    color: white
+    border-radius: 10px
+    text-decoration: none
+    padding: 10px 20px
+    text-transform: uppercase
+
+    &:hover
+      animation: blue-button 0.3s linear 1
+
+@keyframes blue-button
+  25%
+    transform: scale(0.9)
+  75%
+    transform: scale(1.1)
+
 // BLUE BUTTON
 .btn-blue
   box-sizing: border-box

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="862px" height="125px" viewBox="0 0 862 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>winner-banner</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-276.000000, -928.000000)">
+            <g id="winner-banner" transform="translate(276.000000, 928.000000)">
+                <path d="M747,0 L862,0 C830.666667,22.6666667 815,39.6666667 815,51 C815,62.3333333 830.666667,79 862,101 L747,101 L747,0 Z" id="Rectangle" fill="#C14848"></path>
+                <path d="M0,0 L115,0 C83.6666667,22.6666667 68,39.6666667 68,51 C68,62.3333333 83.6666667,79 115,101 L0,101 L0,0 Z" id="Rectangle" fill="#C14848" transform="translate(57.500000, 50.500000) scale(-1, 1) translate(-57.500000, -50.500000) "></path>
+                <rect id="Rectangle" fill="#D05656" x="73" y="24" width="716" height="101"></rect>
+                <text id="2019-WINNER" font-family="Montserrat-ExtraBold, Montserrat" font-size="85" font-weight="600" letter-spacing="-1.0625" fill="#FFFFFF">
+                    <tspan x="132.88375" y="106">2019 WINNER</tspan>
+                </text>
+                <polygon id="Path-3" fill="#B43C3C" points="747 7.07767178e-15 789 24 747 24"></polygon>
+                <polygon id="Path-3" fill="#B43C3C" transform="translate(94.000000, 12.000000) scale(-1, 1) translate(-94.000000, -12.000000) " points="73 7.07767178e-15 115 24 73 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

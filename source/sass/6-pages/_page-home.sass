@@ -1,23 +1,37 @@
 #header-main
-  background: url("../img/heroBanner.png") no-repeat
+  background: url("../img/heroBanner-blue.svg") no-repeat
   background-size: cover
-  height: 800px
+  height: 950px
   color: white
   text-align: left
 
   article
     width: 80%
-    margin: 100px auto
+    margin: 50px auto
+    display: flex
 
+  .article-img
+
+    img
+      float: right
+      width: 90%
+      margin: 50px auto
 
   h1
-    background: linear-gradient(to right, rgba(233,80,172,1), rgba(255,202,42,1))
+    color: white
+    background: linear-gradient(to left, rgba(233,80,172,1), rgba(255,202,42,1))
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent
-    filter: drop-shadow(4px 4px #333)
+    filter: drop-shadow(6px 6px #053B5F)
+    //filter: drop-shadow(3px 3px #fff)
+
+
+  h2
+    color: white
 
   h3
-    color: black
+    //color: #002158
+    color: white
     font-weight: 600
 
 .main-nav
@@ -39,38 +53,67 @@
     border-radius: 10px
     padding: 10px 20px
     text-decoration: none
-    //font-weight: 900
-    //text-transform: uppercase
+    font-weight: 900
+    text-transform: uppercase
 
   a.download
-    //background-image: linear-gradient(to right, rgba(233,80,172,1), rgba(255,202,42,1))
-    background-color: white
+    background-image: linear-gradient(to right, rgba(233,80,172,1), rgba(255,202,42,1))
+    //background-color: white
     font-weight: 900
-    color: #2074ff
+    //color: #2074ff
 
   a:hover
     color: #ccc
 
 #logos
+  text-align: center
+  padding: 30px
+
+  h2
+    color: #858585
 
   ul
     margin: 10px
     padding: 30px 0
     background: white
-    display: grid
-    grid-template-columns: repeat(6, auto)
-    @media only screen and (max-width: 550px)
-      grid-template-columns: repeat(3, auto)
+    display: flex
+    justify-content: space-evenly
+    //grid-template-columns: repeat(6, auto)
+    //@media only screen and (max-width: 550px)
+    //  grid-template-columns: repeat(3, auto)
 
   li
     list-style: none
 
   li img
-    max-width: 50%
+    max-height: 30px
 
 #value-prop
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 100px
+  //background: #702AEB
+
+  h3
+    color: #858585
+
+.value-prop-text
+  width: 40%
+  padding-left: 25px
+
+.value-prop-image
+
+    img
+      float: right
+      width: 50%
+      padding-right: 20px
+
+#testimonial
   text-align: center
-  padding: 200px 0
+
+  img
+    width: 100%
 
 #footer
   text-align: center
