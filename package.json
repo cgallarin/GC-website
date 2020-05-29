@@ -2,9 +2,9 @@
     "name": "GC-website",
     "version": "1.0.0",
     "description": "Gummicube Website",
-    "main": "index.html",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "gulp watch",
+        "build": "gulp img style"
     },
     "author": "Christine Gallarin",
     "license": "ISC",
@@ -23,7 +23,6 @@
         "gulp-uglify": "^3.0.1"
     },
     "dependencies": {
-        "flickity": "^2.2.1",
-        "gulp-v3": "^3.12.1"
+        "flickity": "^2.2.1"
     }
 }
